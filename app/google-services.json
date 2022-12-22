@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "737800444980",
+    "project_id": "ciclo4-f558a",
+    "storage_bucket": "ciclo4-f558a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737800444980:android:fcf0a07d545922d379fe61",
+        "android_client_info": {
+          "package_name": "com.example.retosciclo04"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737800444980-f690bfsev12q1c3rq0jik4133p90herq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF9UfP58mskl2xKyoWIv75fuG3jmLLc7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737800444980-f690bfsev12q1c3rq0jik4133p90herq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">RetosCiclo04</string>
+
+    //texto logo MainActivity*********
+    <string name="textLogo">FERRETERIA EL TORNILLO</string>
+
+    //boton incio MainActivity*********
+    <string name="btnHome">inicio</string>
+
+
+    //texto logo MainActivity*********
+    <string name="textLogo1">FERRETERIA EL TORNILLO</string>
+
+    //boton productos Catalogo*********
+    <string name="textTituloProducto">Productos</string>
+
+
+    //boton btn_sucursales MainActivity1*********
+    <string name="btn_sucursales">sucursales</string>
+
+
+    //botor de devolver Info*********
+    <string name="ButtonInfo">Volver</string>
+
+
+    //texto de campos email y password Login*********
+    <string name="PassLogin">contraseña</string>
+
+    //texto de campos email y password Login*********
+    <string name="EmailLogin">correo</string>
+
+    //texto de campos email y password Registro*********
+    <string name="PassLoginReg">confirmar contraseña</string>
+
+
+
+</resources>

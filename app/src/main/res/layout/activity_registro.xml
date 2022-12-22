@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo01"
+    android:gravity="center"
+    tools:context=".Registro">
+
+    <ImageView
+        android:id="@+id/imageViewReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icons_usuario" />
+
+    <EditText
+        android:id="@+id/editEmailReg"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edit_style"
+        android:drawableStart="@drawable/icon_email"
+        android:textSize="16dp"
+        android:inputType="textPersonName"
+        android:hint="@string/EmailLogin" />
+
+    <EditText
+        android:id="@+id/editPassReg"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edit_style"
+        android:drawableStart="@drawable/icon_pass"
+        android:textSize="16dp"
+        android:inputType="textPassword"
+        android:hint="@string/PassLogin" />
+
+    <EditText
+        android:id="@+id/editPassConfirmReg"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edit_style"
+        android:drawableStart="@drawable/icon_confir_pass"
+        android:textSize="16dp"
+        android:inputType="textPersonName"
+        android:hint="@string/PassLoginReg" />
+
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/dark_blue"
+        android:textColor="@color/white"
+        android:text="Crear cuenta"
+        app:cornerRadius="25dp"/>
+
+</LinearLayout>
